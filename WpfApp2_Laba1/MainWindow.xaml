@@ -5,8 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2_Laba1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="319" Width="800">
+    <Border BorderBrush="Navy" Background="Lavender" BorderThickness="2" Name="border1" Margin="280,0,42,52" >
 
-    </Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
+
+                <StackPanel Orientation="Vertical">
+                    <Border BorderBrush="Black" BorderThickness="1" Height="80" Width="80" Margin="10">
+                        <Image Source="/г.jpg" Stretch="Fill" HorizontalAlignment="Center" />
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                        <Image Source="/е.jpg" Stretch="Fill" />
+                    </Border>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                        <Image Source="/к.jpg" Stretch="Fill"  />
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Height="80" Width="80" Margin="10">
+                        <Image Source="/н.jpg" Stretch="Fill"  />
+                    </Border>
+                
+                </StackPanel>
+            
+                <StackPanel Orientation="Vertical">
+                <Border BorderBrush="Black" BorderThickness="1" Height="80" Width="80"  Margin="10">
+                        <Image Source="/у.jpg" Stretch="Fill" Margin="0,0,0,0"  />
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Height="80" Width="80" Margin="10">
+                        <Image Source="/ц.jpg" Stretch="Fill"  />
+                    </Border>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" >
+                    <Border BorderBrush="Black" BorderThickness="1" Height="80" Width="80" Margin="10">
+                        <Image Source="/ш.jpg" Stretch="Fill"  />
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                        <Image Source="/й.jpg" Stretch="Fill"  />
+                    </Border>
+                </StackPanel>
+        </StackPanel>
+        
+    </Border>
 </Window>

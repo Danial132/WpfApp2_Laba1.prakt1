@@ -6,4 +6,26 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="г.jpg" />
+    <None Remove="е.jpg" />
+    <None Remove="й.jpg" />
+    <None Remove="к.jpg" />
+    <None Remove="н.jpg" />
+    <None Remove="у.jpg" />
+    <None Remove="ц.jpg" />
+    <None Remove="ш.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="г.jpg" />
+    <Resource Include="е.jpg" />
+    <Resource Include="й.jpg" />
+    <Resource Include="к.jpg" />
+    <Resource Include="н.jpg" />
+    <Resource Include="у.jpg" />
+    <Resource Include="ц.jpg" />
+    <Resource Include="ш.jpg" />
+  </ItemGroup>
+
 </Project>
